@@ -1,0 +1,239 @@
+@media (min-width:996px) {
+    .home-grow {
+        padding: 6rem !important;
+    }
+
+}
+
+.home-grow {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.grow-intro {
+    flex: .5;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+.grow-intro h1 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #002159;
+
+}
+
+@media (max-width: 768px) {
+    .grow-intro h1 {
+        font-size: 40px;
+    }
+
+    .feature h3 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .home-grow {
+        gap: 2rem;
+    }
+
+    .grow-intro h1 {
+        font-size: 32px;
+    }
+
+    .feature h3 {
+        font-size: 18px !important;
+    }
+}
+
+.grow-intro p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows the features to wrap if needed */
+    gap: 1rem;
+}
+
+.feature {
+    flex: 1 1 45%;
+    /* Adjust the basis to ensure two items per row */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0px 0px 10px 0px #DDDDDD;
+    /* Optional shadow for visual enhancement */
+    padding: 1rem;
+    /* Optional padding for inner spacing */
+    border-radius: 8px;
+    /* Optional rounded corners */
+    background-color: #fff;
+    /* Optional background color */
+    transition: all ease .5s;
+
+}
+
+.feature:hover {
+    /* box-shadow: 0px 0px 10px 2px #B03DFF; */
+    background-image: linear-gradient(192deg, #3b82f6 0%, #1e3a8a 100%);
+
+}
+
+.feature h3 {
+    font-size: 26px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: #002159;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: small;
+
+}
+
+.get-started-btn {
+    margin-top: 1.5rem;
+    padding: 1rem 2.2rem;
+    /* background-color: #4B58DB; */
+    background-color: transparent;
+    background-image: linear-gradient(192deg, #FF87FA 17%, #AF3CFF 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-in .2s;
+}
+
+.get-started-btn:hover {
+    /* background-color: #002159; */
+    background-image: none;
+    border: 1px solid #FF87FA;
+    color: #FF87FA;
+    /* color: #fff; */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    flex: 1;
+    min-width: 300px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #DDDDDD;
+    flex: 1;
+    min-width: 300px;
+    max-width: 100%;
+    min-height: 360px;
+    max-height: 450px;
+    transition: all ease 0.5s;
+    border: none;
+    display: flex;
+    /* Use flexbox layout */
+    flex-direction: column;
+    /* Arrange content vertically */
+    justify-content: space-between;
+    /* Distribute space between content and button */
+    gap: 1rem;
+    position: relative;
+    /* Required for absolute positioning of button */
+}
+
+.card:hover {
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-icon i {
+    color: #002159;
+    transition: all ease 0.5s;
+}
+
+.card-icon i:hover {
+    color: #002159;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #002159;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.learn-more-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #fff !important;
+    color: #002159;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    /* Center text in the button */
+    width: 150px;
+    transition: all ease 0.5s;
+    margin-top: auto;
+    /* Push button to the bottom */
+}
+
+
+.learn-more-btn:hover {
+    /* background-color: #002159 !important; */
+    background-color: transparent;
+    /* background-image: linear-gradient(192deg, #FF87FA 17%, #AF3CFF 100%); */
+    background-image: linear-gradient(192deg, #3b82f6 0%, #1e3a8a 100%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home-grow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,87 @@
+@media (min-width: 996px) {
+    .home-card {
+        margin: 6rem !important;
+    
+
+    }
+
+
+}
+
+  .home-card {
+    background-color: #042D89;
+    font-family: "Space Grotesk", sans-serif;
+
+    flex: 1;
+    margin: .5rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 4rem;
+    border-radius: 20px;
+    position: relative; /* Ensure relative positioning for child elements */
+}
+
+
+
+  
+  .home-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .book-button {
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+    font-size: 17px;
+    /* background-color: #ffffff; */
+    background-color: transparent;
+    /* background-image: linear-gradient(192deg, #FF87FA 17%, #AF3CFF 100%); */
+      background-image: linear-gradient(192deg, #3b82f6 0%, #1e3a8a 100%);
+
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .book-button:hover {
+   
+    background-image: none;
+    /* border:1px solid #FF87FA; */
+        border: 1px solid #1e3a8a;
+
+    background-color: #fff;
+    color: #17295b;
+  
+}
+  
+
+  .home-card-content h3 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #ffff;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .home-card-content h3 {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .home-card-content h3 {
+        font-size: 20px;
+    }
+    .home-card{
+        padding: 2rem;
+    }
+}
+
