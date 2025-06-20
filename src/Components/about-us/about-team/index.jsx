@@ -1,6 +1,6 @@
 // import React from 'react'
 import './about-team.css'
-import Member1 from '../../assets/About-Us-Member-1.webp'
+import Member1 from '../../assets/Pictures/CEO.png'
 import Member2 from '../../assets/About-Us-Member-2.webp'
 import Member3 from '../../assets/About-Us-Member-3.webp'
 import Member4 from '../../assets/About-Us-Member-4.webp'
@@ -16,8 +16,8 @@ const AboutTeam = () => {
                 <div className="about-team-card-img">
                     <img src={Member1} alt="" />
                 </div>
-                <h2>Claudia Arla</h2>
-                <p>Chief Designer</p>
+                <h2>Syed Kifayat</h2>
+                <p>CEO</p>
             </div>
             <div className='about-team-card'>
                 <div className="about-team-card-img">
