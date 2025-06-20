@@ -12,10 +12,10 @@ const Footer = () => {
          <div className='logo-img'> <Link className="link" to="/"><img src={Logo} alt="Company Logo" /></Link></div>
           <p>Shaping technology for the future</p>
           <div className="social-icons">
-            <div className='icon-box'><a href="" style={{textDecoration:"none", color:'#fff'}}> <i className="fab fa-facebook-f"></i></a></div>
-            <div className='icon-box'> <a href="" style={{textDecoration:"none", color:'#fff'}}><i className="fab fa-twitter"></i></a></div>
-            <div className='icon-box'> <a href="" style={{textDecoration:"none", color:'#fff'}}><i className="fab fa-instagram"></i></a></div>
-            <div className='icon-box'> <a href="" style={{textDecoration:"none", color:'#fff'}}> <i className="fab fa-linkedin-in"></i></a></div>
+            <div className='icon-box'><a href="" > <i className="fab fa-facebook-f"></i></a></div>
+            <div className='icon-box'> <a href="" ><i className="fab fa-twitter"></i></a></div>
+            <div className='icon-box'> <a href="" ><i className="fab fa-instagram"></i></a></div>
+            <div className='icon-box'> <a href="" > <i className="fab fa-linkedin-in"></i></a></div>
           </div>
         </div>
         
