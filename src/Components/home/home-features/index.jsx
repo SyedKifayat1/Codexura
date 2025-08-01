@@ -6,7 +6,7 @@ import ColorsImg from '../../assets/colors.png';
 const HomeFeatures = () => {
   return (
     <section className="home-features">
-      <h1 data-aos="flip-right">More Ways Evibes Development Can Help You|</h1>
+      <h1 data-aos="flip-right">More Ways Codexura Can Help You|</h1>
       <div className="features-cards">
         <div className="features-card" data-aos="fade-right" data-aos-delay='200'>
           <div className="card-icon" style={{backgroundColor:'#D9FAFD'}}>
